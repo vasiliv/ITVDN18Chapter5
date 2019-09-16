@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@helper ForeachMethod(string[] ViewBagger) {
+    <ul>
+        @foreach (var ListViewBagger in ViewBagger) {
+            <li>
+                @ListViewBagger
+            </li>
+        }
+    </ul>
+}
+
+<h3>WeekDays:</h3></br>
+@ForeachMethod(ViewBag.WeekDays)
+</br>
+<h3>Fruits:</h3></br>
+@ForeachMethod(ViewBag.Fruits)
+
+
+
