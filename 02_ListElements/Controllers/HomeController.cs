@@ -15,6 +15,7 @@ namespace _02_ListElements.Controllers {
                 new Product{Id = 3, Name = "Product3"},
                 new Product{Id = 4, Name = "Product4"}
             };
+            ViewBag.Products = new SelectList(Products, "Id", "Name");
             return View();
         }
         [HttpPost]
