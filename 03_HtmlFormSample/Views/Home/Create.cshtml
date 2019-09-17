@@ -1,0 +1,24 @@
+﻿@model _03_HtmlFormSample.Models.TaskModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+@using (Html.BeginForm()) {
+    <fieldset>
+        <div>
+            <label>Name:</label><br />
+            @Html.TextBox("Name")<br />
+        </div>
+        <div>
+            <label>Start Date:</label><br />
+            @Html.TextBox("StartDate")<br />
+        </div>
+        <div>
+            <label>Start Date:</label><br />
+            @Html.CheckBox("Completed")<br />
+        </div>
+        <input type="submit" value="Submit">
+    </fieldset>
+}
