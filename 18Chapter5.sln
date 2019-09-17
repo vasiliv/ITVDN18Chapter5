@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_HtmlHelperMethods", "01_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_HtmlFormSample", "03_HtmlFormSample\03_HtmlFormSample.csproj", "{6F573825-05E8-4B75-813E-AD8A29F7FD9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ListElements", "01_ListElements\01_ListElements.csproj", "{68721AEA-A0BE-4BE4-BB3F-EE6A27F74A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ListElements", "02_ListElements\02_ListElements.csproj", "{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6F573825-05E8-4B75-813E-AD8A29F7FD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F573825-05E8-4B75-813E-AD8A29F7FD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F573825-05E8-4B75-813E-AD8A29F7FD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68721AEA-A0BE-4BE4-BB3F-EE6A27F74A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68721AEA-A0BE-4BE4-BB3F-EE6A27F74A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68721AEA-A0BE-4BE4-BB3F-EE6A27F74A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68721AEA-A0BE-4BE4-BB3F-EE6A27F74A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

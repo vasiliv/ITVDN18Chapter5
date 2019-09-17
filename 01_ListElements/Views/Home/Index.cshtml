@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm()) {
+    @Html.DropDownList("List1", new SelectList(new [] { "1", "2", "3" }))<br />
+    @Html.ListBox("List2", new MultiSelectList(new [] { "A", "B", "C" }),new { style = "width:100px;" })<br />
+    <input type="submit" value="Create">
+}
+
+
+<h3>Selected value is: @ViewBag.SelectedList1</h3>
+<br />
+<h3>Selected value is: @ViewBag.SelectedList2</h3>
+
