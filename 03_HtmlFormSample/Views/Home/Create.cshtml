@@ -9,16 +9,20 @@
     <fieldset>
         <div>
             <label>Name:</label><br />
-            @Html.TextBox("Name")<br />
+            @*@Html.TextBox("Name")<br />*@
+            @*Strongly typed:*@
+            @Html.TextBoxFor(m => m.Name)
         </div>
         <div>
             <label>Start Date:</label><br />
-            @Html.TextBox("StartDate")<br />
+            @*@Html.TextBox("StartDate")<br />*@
+            @Html.TextBoxFor(m => m.StartDate)
         </div>
         <div>
             <label>Start Date:</label><br />
-            @Html.CheckBox("Completed")<br />
+            @*@Html.CheckBox("Completed")<br />*@
+            @Html.CheckBoxFor(m => m.Completed)
         </div>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Create">
     </fieldset>
 }
