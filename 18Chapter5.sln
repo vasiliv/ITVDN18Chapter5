@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ListElements", "01_ListE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ListElements", "02_ListElements\02_ListElements.csproj", "{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkAdditionalCalc", "HomeworkAdditionalCalc\HomeworkAdditionalCalc.csproj", "{CFB4A23A-1661-47A8-A633-CE8732380EB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FF75277-11EF-4A27-ADD1-DB0AB2C8BA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB4A23A-1661-47A8-A633-CE8732380EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB4A23A-1661-47A8-A633-CE8732380EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB4A23A-1661-47A8-A633-CE8732380EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB4A23A-1661-47A8-A633-CE8732380EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

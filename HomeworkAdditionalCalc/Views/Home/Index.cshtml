@@ -1,0 +1,21 @@
+﻿@model HomeworkAdditionalCalc.Content.Calculator
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm()) {
+    @Html.TextBoxFor(m => m.txtBox1)
+    <br />
+    @Html.TextBoxFor(m => m.txtBox2)
+    <br />
+    @*@Html.TextBoxFor(m => m.txtBoxResult)
+        <br />*@
+    <input type="submit" value="Plus" />    
+    <br />
+}
+
+<h3>Result is: @ViewBag.Result</h3>
+
