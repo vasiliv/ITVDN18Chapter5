@@ -4,18 +4,22 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Calculator</h2>
 
 @using (Html.BeginForm()) {
     @Html.TextBoxFor(m => m.txtBox1)
     <br />
     @Html.TextBoxFor(m => m.txtBox2)
     <br />
-    @*@Html.TextBoxFor(m => m.txtBoxResult)
-        <br />*@
-    <input type="submit" value="Plus" />    
+    <input type="submit" value="Plus" formaction="Plus" />
+    @:&nbsp;
+    <input type="submit" value="Minus" formaction="Minus" />
+    @:&nbsp;
+    <input type="submit" value="Multiply" formaction="Multiply" />
+    @:&nbsp;
+    <input type="submit" value="Divide" formaction="Divide" />
+    @:&nbsp;
     <br />
 }
-
 <h3>Result is: @ViewBag.Result</h3>
 
